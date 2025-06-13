@@ -57,18 +57,18 @@ h1 {
 
 .bottom-image {
   position: fixed;
-  bottom: 20px;
+  bottom: 2em;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  gap: 15px; /* space between images */
+  gap: 0.75em; /* space between images */
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
 .bottom-image img {
-  height: 30px; /* or whatever size you need */
+  height: 2em;  /* or whatever size you need */
   transition: opacity 0.3s;
 }
 
