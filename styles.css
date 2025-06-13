@@ -54,3 +54,24 @@ h1 {
 .icons a:hover {
   color: #555;
 }
+
+.bottom-image {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 15px; /* space between images */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bottom-image img {
+  height: 30px; /* or whatever size you need */
+  transition: opacity 0.3s;
+}
+
+.bottom-image img:hover {
+  opacity: 0.7;
+}
