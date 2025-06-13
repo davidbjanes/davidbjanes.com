@@ -44,31 +44,20 @@ h1 {
 	font-size: 1.5em;
 }
 
-.icons a {
-  color: black;
-  font-size: 1.5em;
-  margin: 0 10px;
-  text-decoration: none;
-}
-
-.icons a:hover {
-  color: #555;
-}
-
 .bottom-image {
   position: fixed;
-  bottom: 2em;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
-  gap: 0.75em; /* space between images */
+  gap: 15px; /* space between images */
   align-items: center;
   justify-content: center;
   text-align: center;
 }
 
 .bottom-image img {
-  height: 2em;  /* or whatever size you need */
+  height: 30px;  /* or whatever size you need */
   transition: opacity 0.3s;
 }
 
